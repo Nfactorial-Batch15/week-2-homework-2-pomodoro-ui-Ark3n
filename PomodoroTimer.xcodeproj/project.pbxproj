@@ -11,6 +11,10 @@
 		D80D65F52761575700D927AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D65F42761575700D927AC /* ContentView.swift */; };
 		D80D65F72761575800D927AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80D65F62761575800D927AC /* Assets.xcassets */; };
 		D80D65FA2761575800D927AC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80D65F92761575800D927AC /* Preview Assets.xcassets */; };
+		D80D66032763293E00D927AC /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D66022763293E00D927AC /* Main.swift */; };
+		D80D660727633AD700D927AC /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D660627633AD700D927AC /* Settings.swift */; };
+		D80D660927633AE700D927AC /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D660827633AE700D927AC /* History.swift */; };
+		D80D660D27634BBE00D927AC /* FocusCategoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80D660C27634BBE00D927AC /* FocusCategoryApp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		D80D65F42761575700D927AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D80D65F62761575800D927AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D80D65F92761575800D927AC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D80D66022763293E00D927AC /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		D80D660627633AD700D927AC /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		D80D660827633AE700D927AC /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		D80D660C27634BBE00D927AC /* FocusCategoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusCategoryApp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				D80D65F22761575700D927AC /* PomodoroTimerApp.swift */,
+				D80D660627633AD700D927AC /* Settings.swift */,
+				D80D660827633AE700D927AC /* History.swift */,
 				D80D65F42761575700D927AC /* ContentView.swift */,
+				D80D66022763293E00D927AC /* Main.swift */,
+				D80D660C27634BBE00D927AC /* FocusCategoryApp.swift */,
 				D80D65F62761575800D927AC /* Assets.xcassets */,
 				D80D65F82761575800D927AC /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D80D66032763293E00D927AC /* Main.swift in Sources */,
 				D80D65F52761575700D927AC /* ContentView.swift in Sources */,
+				D80D660727633AD700D927AC /* Settings.swift in Sources */,
 				D80D65F32761575700D927AC /* PomodoroTimerApp.swift in Sources */,
+				D80D660D27634BBE00D927AC /* FocusCategoryApp.swift in Sources */,
+				D80D660927633AE700D927AC /* History.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
